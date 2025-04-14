@@ -1,0 +1,47 @@
+.slogan-bloco {
+    background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+    color: #fff;
+    padding: 100px 30px;
+    text-align: center;
+    font-family: 'Helvetica Neue', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    animation: fadeIn 1s ease-in-out;
+  }
+  
+  .slogan-conteudo h1 {
+    font-size: 3em;
+    font-weight: 700;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg, #00F5A0, #00D9F5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  
+  .slogan-conteudo h1 span {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .slogan-conteudo p {
+    font-size: 1.2em;
+    color: #cfd8dc;
+    margin-top: 10px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
